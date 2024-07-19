@@ -1,69 +1,60 @@
 {
-  "landlords": [
+  "landlord": [
     {
-      "id": "70986",
-      "name": "Robert Kimani",
-      "username": "70986",
-      "password": "R123",
-      "apartments": [
-        {
-          "name": "Leisure Apartments",
-          "type": "Apartments",
-          "address": "Kitengela",
-          "units": "20",
-          "occupied": 0
-        },
-        {
-          "name": "Kijani Plains",
-          "type": "Villas",
-          "address": "Thika",
-          "units": "6",
-          "occupied": 0
-        }
-      ],
-      "tenants": [
-        [
-          {
-            "tenantName": "Charlie Makubwa",
-            "phoneNumber": "65098",
-            "id": "a2",
-            "idNumber": "1234",
-            "password": "C123",
-            "apartment": "Leisure Apartments",
-            "monthlyBills": [
-              {
-                "rent": 10000,
-                "garbage": 400
-              }
-            ],
-            "payments": {
-              "invoice": [],
-              "cashIn": [],
-              "balances": "10500"
-            }
-          },
-          {
-            "tenantName": "Chris Madafu",
-            "phoneNumber": "76543",
-            "id": "a5",
-            "idNumber": "6789",
-            "password": "M123",
-            "apartment": "Kijani Plains",
-            "monthlyBills": [
-              {
-                "rent": 10000,
-                "garbage": 400
-              }
-            ],
-            "payments": {
-              "invoice": [],
-              "cashIn": [],
-              "balances": "10500"
-            }
-          }
-        ]
-      ],
-      "payments": []
+      "id": "a267",
+      "type": "apartment",
+      "apartment": {
+        "names": "Kijani Ridges",
+        "units": "20",
+        "location": "Thika Greens",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": "e0ab",
+      "type": "apartment",
+      "apartment": {
+        "names": "Country Villas",
+        "units": "20",
+        "location": "Muthaiga",
+        "imageUrl": ""
+      }
+    },
+    {
+      "id": "b7eb",
+      "type": "tenant",
+      "tenant": {
+        "name": "Charlie",
+        "phoneNumber": "45987",
+        "apartment": "Kijani Ridges",
+        "houseNumber": "A6",
+        "rent": "17000",
+        "balances": 8300
+      }
+    },
+    {
+      "id": "abbd",
+      "type": "tenant",
+      "tenant": {
+        "name": "Joan",
+        "phoneNumber": "98067",
+        "apartment": "Kijani Ridges",
+        "houseNumber": "a7",
+        "rent": "10000",
+        "balances": 0
+      }
+    },
+    {
+      "id": "0108",
+      "type": "tenant",
+      "tenant": {
+        "name": "Stanley",
+        "phoneNumber": "4532",
+        "apartment": "Kijani Ridges",
+        "houseNumber": "A6",
+        "rent": "23000",
+        "balances": 0
+      }
     }
   ]
 }
